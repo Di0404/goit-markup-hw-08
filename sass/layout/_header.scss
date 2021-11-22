@@ -3,11 +3,12 @@
   padding-top: 16px;
   padding-bottom: 16px;
   border: 1px solid #ececec;
-  // padding-top: 24px;
-  // padding-bottom: 24px; deksto
-  // position: absolute;
-  // width: 100%;
-  // left: 0;
+  @media screen and (min-width: 1200px) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    width: 100%;
+  }
 }
 
 .logo {
