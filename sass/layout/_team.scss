@@ -70,9 +70,13 @@
 
 .team-icon-list {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
 }
-
+.team-icon-item {
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
+}
 .team-icon-item {
   height: 44px;
   width: 44px;

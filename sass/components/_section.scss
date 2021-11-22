@@ -9,16 +9,27 @@
 }
 
 .section-feauters {
-  padding-bottom: 0px;
+  @media screen and (min-width: 1200px) {
+    padding-bottom: 0px;
+  }
 }
-
 .section-hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  padding-top: 118px;
+  padding-bottom: 118px;
+  @media screen and (min-width: 1200px) {
+    padding-top: 200px;
+    padding-bottom: 200px;
+  }
 }
 
 .section-job {
   @media screen and (max-width: 1199px) {
     display: none;
   }
+}
+
+footer {
+  background-color: var(--bgc-color);
+  font-weight: 400;
+  padding: 60px 0;
 }

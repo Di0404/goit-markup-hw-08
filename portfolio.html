@@ -17,7 +17,7 @@
 
 <body class="page">
     <!-- шапка сайти -->
-    <header class="header">
+    <!-- <header class="header">
         <div class="container container-header">
             <nav class="site-nav">
                 <a href="./index.html" class="logo">Web<span class="logo-header">Studio</span></a>
@@ -51,7 +51,7 @@
                 </li>
             </ul>
         </div>
-    </header>
+    </header> -->
     <!-- мэйн -->
 <main>
     <section class=" section project">
@@ -68,7 +68,15 @@
         <ul class="project-list">
             <li class="project-item"> 
                 <div class="project-img-wrapp">
-                <img  class="project-img" src="./images/photo1.jpg" alt="варианты" width="370" height="294"/>
+                <picture>
+                    <source srcset="./images/portfolio-img/img1-desktop-1x.jpg  1x,
+                                    ./images/portfolio-img/img1-desktop-2x.jpg  2x" media="(min-width: 1200px)" />
+                    <source srcset="./images/portfolio-img/img1-tablet-1x.jpg  1x,
+                                    ./images/portfolio-img/img1-tablet-2x.jpg  2x," media="(min-width: 768px)" />
+                    <source srcset="./images/portfolio-img/img1-mob-1x.jpg 1x
+                                    ./images/portfolio-img/img1-mob-2x.jpg 2x" media="(min-width: 320px)" />
+                    <img class="team-img" src="./images/portfolio-img/photo1.jpg" alt="команда" width="">
+                </picture>
                 <p class="project-top-text">Технокряк это современная площадка распространения коронавируса. Компании используют эту платформу для цифрового
                 шпионажа и атак на защищённые сервера конкурентов.</p>
                 </div>
@@ -78,56 +86,120 @@
                 </div>
             </li>
             <li class="project-item"> 
-                <img src="./images/photo2.jpg" alt="варианты" width="370" height="294"/>
+                <picture>
+                    <source srcset="./images/portfolio-img/img2-desktop-1x.jpg  1x,
+                                                    ./images/portfolio-img/img2-desktop-2x.jpg  2x" media="(min-width: 1200px)" />
+                    <source srcset="./images/portfolio-img/img2-tablet-1x.jpg  1x,
+                                                    ./images/portfolio-img/img2-tablet-2x.jpg  2x," media="(min-width: 768px)" />
+                    <source srcset="./images/portfolio-img/img2-mob-1x.jpg 1x
+                                                    ./images/portfolio-img/img2-mob-2x.jpg 2x" media="(min-width: 320px)" />
+                    <img class="team-img" src="./images/portfolio-img/photo2.jpg" alt="команда" width="">
+                </picture>
                 <div class="project-list-container">
                 <h2 class="project-feauters">Постер New Orlean vs Golden Star</h2>
             <p class="project-text" >Дизайн</p>
                 </div>
             </li>
             <li class="project-item"> 
-                <img src="./images/photo3.jpg" alt="варианты" width="370" height="294"/>
+                <picture>
+                    <source srcset="./images/portfolio-img/img3-desktop-1x.jpg  1x,
+                                                    ./images/portfolio-img/img3-desktop-2x.jpg  2x" media="(min-width: 1200px)" />
+                    <source srcset="./images/portfolio-img/img3-tablet-1x.jpg  1x,
+                                                    ./images/portfolio-img/img3-tablet-2x.jpg  2x," media="(min-width: 768px)" />
+                    <source srcset="./images/portfolio-img/img3-mob-1x.jpg 1x
+                                                    ./images/portfolio-img/img3-mob-2x.jpg 2x" media="(min-width: 320px)" />
+                    <img class="team-img" src="./images/portfolio-img/photo3.jpg" alt="команда" width="">
+                </picture>
                 <div class="project-list-container">
                 <h2 class="project-feauters">Ресторан Seafood</h2>
             <p class="project-text" >Приложение</p>
                     </div>
             </li>
             <li class="project-item"> 
-                <img src="./images/photo4.jpg" alt="варианты" width="370" height="294"/>
+                <picture>
+                    <source srcset="./images/portfolio-img/img4-desktop-1x.jpg  1x,
+                                                    ./images/portfolio-img/img4-desktop-2x.jpg  2x" media="(min-width: 1200px)" />
+                    <source srcset="./images/portfolio-img/img4-tablet-1x.jpg  1x,
+                                                    ./images/portfolio-img/img4-tablet-2x.jpg  2x," media="(min-width: 768px)" />
+                    <source srcset="./images/portfolio-img/img4-mob-1x.jpg 1x
+                                                    ./images/portfolio-img/img4-mob-2x.jpg 2x" media="(min-width: 320px)" />
+                    <img class="team-img" src="./images/portfolio-img/photo4.jpg" alt="команда" width="">
+                </picture>
                 <div class="project-list-container">
                 <h2 class="project-feauters">Проект Prime</h2>
             <p class="project-text" >Маркетинг</p>
                 </div>
             </li>
             <li class="project-item"> 
-                <img src="./images/photo5.jpg" alt="варианты" width="370" height="294"/>
+                <picture>
+                    <source srcset="./images/portfolio-img/img5-desktop-1x.jpg  1x,
+                                                    ./images/portfolio-img/img5-desktop-2x.jpg  2x" media="(min-width: 1200px)" />
+                    <source srcset="./images/portfolio-img/img5-tablet-1x.jpg  1x,
+                                                    ./images/portfolio-img/img5-tablet-2x.jpg  2x," media="(min-width: 768px)" />
+                    <source srcset="./images/portfolio-img/img5-mob-1x.jpg 1x
+                                                    ./images/portfolio-img/img5-mob-2x.jpg 2x" media="(min-width: 320px)" />
+                    <img class="team-img" src="./images/portfolio-img/photo5.jpg" alt="команда" width="">
+                </picture>
                 <div class="project-list-container">
                 <h2 class="project-feauters">Проект Boxes</h2>
             <p class="project-text" >Приложение</p>
                     </div>
             </li>
             <li class="project-item"> 
-                <img src="./images/photo6.jpg" alt="варианты" width="370" height="294"/>
+                <picture>
+                    <source srcset="./images/portfolio-img/img6-desktop-1x.jpg  1x,
+                                                    ./images/portfolio-img/img6-desktop-2x.jpg  2x" media="(min-width: 1200px)" />
+                    <source srcset="./images/portfolio-img/img6-tablet-1x.jpg  1x,
+                                                    ./images/portfolio-img/img6-tablet-2x.jpg  2x," media="(min-width: 768px)" />
+                    <source srcset="./images/portfolio-img/img6-mob-1x.jpg 1x
+                                                    ./images/portfolio-img/img6-mob-2x.jpg 2x" media="(min-width: 320px)" />
+                    <img class="team-img" src="./images/portfolio-img/photo6.jpg" alt="команда" width="">
+                </picture>
                 <div class="project-list-container">
                 <h2 class="project-feauters">Inspiration has no Borders</h2>
             <p class="project-text" >Веб-сайт</p>
                 </div>
             </li>
             <li class="project-item"> 
-                <img src="./images/photo7.jpg" alt="варианты" width="370" height="294"/>
+                <picture>
+                    <source srcset="./images/portfolio-img/img7-desktop-1x.jpg  1x,
+                                                    ./images/portfolio-img/img7-desktop-2x.jpg  2x" media="(min-width: 1200px)" />
+                    <source srcset="./images/portfolio-img/img7-tablet-1x.jpg  1x,
+                                                    ./images/portfolio-img/img7-tablet-2x.jpg  2x," media="(min-width: 768px)" />
+                    <source srcset="./images/portfolio-img/img7-mob-1x.jpg 1x
+                                                    ./images/portfolio-img/img7-mob-2x.jpg 2x" media="(min-width: 320px)" />
+                    <img class="team-img" src="./images/portfolio-img/photo7.jpg" alt="команда" width="">
+                </picture>
                 <div class="project-list-container">
                 <h2 class="project-feauters">Издание Limited Edition</h2>
             <p class="project-text" >Дизайн</p>
                 </div>
             </li>
             <li class="project-item"> 
-                <img src="./images/photo8.jpg" alt="варианты" width="370" height="294"/>
+                <picture>
+                    <source srcset="./images/portfolio-img/img8-desktop-1x.jpg  1x,
+                                                    ./images/portfolio-img/img8-desktop-2x.jpg  2x" media="(min-width: 1200px)" />
+                    <source srcset="./images/portfolio-img/img8-tablet-1x.jpg  1x,
+                                                    ./images/portfolio-img/img8-tablet-2x.jpg  2x," media="(min-width: 768px)" />
+                    <source srcset="./images/portfolio-img/img8-mob-1x.jpg 1x
+                                                    ./images/portfolio-img/img8-mob-2x.jpg 2x" media="(min-width: 320px)" />
+                    <img class="team-img" src="./images/portfolio-img/photo8.jpg" alt="команда" width="">
+                </picture>
                 <div class="project-list-container">
                 <h2 class="project-feauters">Проект LAB</h2>
             <p class="project-text" >Маркетинг</p>
                 </div>
             </li>
             <li class="project-item"> 
-                <img src="./images/photo9.jpg" alt="варианты" width="370" height="294"/>
+                <picture>
+                    <source srcset="./images/portfolio-img/img9-desktop-1x.jpg  1x,
+                                                    ./images/portfolio-img/img9-desktop-2x.jpg  2x" media="(min-width: 1200px)" />
+                    <source srcset="./images/portfolio-img/img9-tablet-1x.jpg  1x,
+                                                    ./images/portfolio-img/img9-tablet-2x.jpg  2x," media="(min-width: 768px)" />
+                    <source srcset="./images/portfolio-img/img9-mob-1x.jpg 1x
+                                                    ./images/portfolio-img/img9-mob-2x.jpg 2x" media="(min-width: 320px)" />
+                    <img class="team-img" src="./images/portfolio-img/photo9.jpg" alt="команда" width="">
+                </picture>
                 <div class="project-list-container">
                 <h2 class="project-feauters">Growing Business</h2>
             <p class="project-text" >Приложение</p>
@@ -142,53 +214,69 @@
 <!-- футер -->
     <footer class="footer">
         <div class="container footer-container">
-            <div>
-                <a href="./index.html" class="logo ">Web<span class="logo-footer">Studio</span></a>
-                <address class="address">
-                    <ul class="address-list">
-                        <li class="address-item">
-                            <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+            <div class="address-soc-wrap">
+                <div class="address-container">
+                    <a href="./index.html" class="logo ">Web<span class="logo-footer">Studio</span></a>
+                    <address class="address">
+                        <ul class="address-list">
+                            <li class="address-item">
+                                <p class="address-text">г. Киев, пр-т Леси Украинки, 26</p>
+                            </li>
+                            <li class="address-item"><a href="mailto:info@devstudio.com"
+                                    class="mailo">info@devstudio.com</a></li>
+                            <li class="address-item address-list-item"><a href="tel:+380961111111" class="phone">+38 096 111
+                                    11 11</a></li>
+                        </ul>
+                    </address>
+                </div>
+                <div class="footer-soc">
+                    <h2 class="soc-title">Присоединяйтесь</h2>
+    
+                    <ul class="soc-list">
+                        <li class="soc-item">
+                            <a href="" class="soc-link">
+                                <svg class="soc-icon" width="20" height="20">
+                                    <use href="./images/sprite-svg.svg#icon-instagram"></use>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="address-item"><a href="mailto:info@devstudio.com" class="mailo">info@devstudio.com</a>
+                        <li class="soc-item">
+                            <a href="" class="soc-link">
+                                <svg class="soc-icon" width="20" height="20">
+                                    <use href="./images/sprite-svg.svg#icon-twitter"></use>
+                                </svg>
+                            </a>
                         </li>
-                        <li class="address-item"><a href="tel:+380961111111" class="phone">+38 096 111 11 11</a></li>
+                        <li class="soc-item">
+                            <a href="" class="soc-link">
+                                <svg class="soc-icon" width="20" height="20">
+                                    <use href="./images/sprite-svg.svg#icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="soc-item">
+                            <a href="" class="soc-link">
+                                <svg class="soc-icon" width="20" height="20">
+                                    <use href="./images/sprite-svg.svg#icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+    
                     </ul>
-                </address>
+                </div>
             </div>
-            <div class="footer-soc">
-                <h2 class="soc-title">Присоединяйтесь</h2>
-    
-                <ul class="soc-list">
-                    <li class="soc-item">
-                        <a href="" class="soc-link">
-                            <svg class="soc-icon" width="20" height="20">
-                                <use href="./images/sprite-svg.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="soc-item">
-                        <a href="" class="soc-link">
-                            <svg class="soc-icon" width="20" height="20">
-                                <use href="./images/sprite-svg.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="soc-item">
-                        <a href="" class="soc-link">
-                            <svg class="soc-icon" width="20" height="20">
-                                <use href="./images/sprite-svg.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="soc-item">
-                        <a href="" class="soc-link">
-                            <svg class="soc-icon" width="20" height="20">
-                                <use href="./images/sprite-svg.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-    
-                </ul>
+            <div class="footer-subscribe">
+                <p class="subscribe-title">Подпишитесь на рассылку</p>
+                <div class="subscribe-send">
+                    <div class="subscribe-modal">
+                        <label class="subscribe-label" for="user-e-mail"></label>
+                        <span class="subscribe-wrap">
+                            <input type="text" name="user-e-mail" id="user-e-mail" class="subscribe-input"
+                                placeholder="E-mail" />
+                        </span>
+                    </div>
+                    <button type="submit" class="subscribe-btn">Подписаться</button>
+                </div>
             </div>
         </div>
     </footer>
