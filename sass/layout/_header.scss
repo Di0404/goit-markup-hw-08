@@ -55,7 +55,6 @@
     font-weight: 400;
   }
   @media screen and (min-width: 1200px) {
-    margin-right: 93px;
   }
 }
 .nav-list {
@@ -95,8 +94,8 @@
     display: flex;
   }
   @media screen and (min-width: 1200px) {
-    margin-right: 50px;
     margin-left: auto;
+    flex-direction: row;
   }
 }
 

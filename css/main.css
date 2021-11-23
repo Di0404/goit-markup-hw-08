@@ -148,12 +148,6 @@ img {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .logo-header {
-    margin-right: 93px;
-  }
-}
-
 .nav-list {
   display: none;
 }
@@ -200,8 +194,8 @@ img {
 
 @media screen and (min-width: 1200px) {
   .contact-info {
-    margin-right: 50px;
     margin-left: auto;
+    flex-direction: row;
   }
 }
 
@@ -835,6 +829,12 @@ img {
   margin-bottom: 60px;
 }
 
+@media screen and (min-width: 1200px) {
+  .address-list-item {
+    margin-bottom: 0px;
+  }
+}
+
 .footer-soc {
   text-align: center;
 }
@@ -1081,18 +1081,6 @@ img {
   flex-basis: 370px;
 }
 
-@media screen and (min-width: 768px) {
-  .project-item {
-    flex-basis: 354px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .project-item {
-    flex-basis: 370px;
-  }
-}
-
 .project-item:not(:last-child) {
   margin-bottom: 30px;
 }
@@ -1103,6 +1091,18 @@ img {
 
 .project-item:hover {
   box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 0px 4px 4px rgba(0, 0, 0, 0.06), 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+@media screen and (min-width: 768px) {
+  .project-item {
+    flex-basis: 354px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .project-item {
+    flex-basis: 370px;
+  }
 }
 
 .project-list-container {

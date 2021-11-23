@@ -49,6 +49,9 @@
 
 .address-list-item {
   margin-bottom: 60px;
+  @media screen and (min-width: 1200px) {
+    margin-bottom: 0px;
+  }
 }
 
 .footer-soc {
